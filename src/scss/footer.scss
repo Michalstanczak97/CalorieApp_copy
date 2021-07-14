@@ -1,0 +1,15 @@
+@import "fonts";
+.footer {
+    width: 100vw;
+    height: 10rem;
+    background-color: #202020;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    h4 {
+        color: white;
+        opacity: 50%;
+        font-family: $thirdFont;
+        padding: 0 2rem 0.5rem 0;
+    }
+}

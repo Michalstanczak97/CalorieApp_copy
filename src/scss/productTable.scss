@@ -1,0 +1,119 @@
+@import "fonts";
+.product__table {
+  height: 100%;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  h2 {
+    font-family: $third-color;
+  }
+}
+.search {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    border-radius: 0.5rem;
+    border:0.1rem solid $third-color;
+    height: 2rem;
+    width: 16rem;
+    font-family: $thirdFont;
+  }
+}
+.your__product_container {
+  width: 80vw;
+  min-height: 30rem;
+  border-radius: 3rem;
+  border: 0.5rem solid $third-color;
+  background-color: $secondary-color;
+  margin: 0 auto;
+  //padding-left: 2rem;
+  //line-height: 3rem;
+  h1{
+    padding-left: 2rem;
+  }
+  h2{
+    padding-left: 2rem;
+    color: $primary-color;
+
+  }
+}
+.product__list{
+  width: 100%;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+.product__list ul li{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.grammage {
+  display: flex;
+  flex-grow: 1;
+  font-family: $thirdFont;
+}
+.item {
+line-height: 0;
+  h5 {
+    font-family: $thirdFont;
+    font-size: 0.8rem;
+  }
+}
+.schedule {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  p {
+    margin-right: 0.7rem;
+    font-family: $thirdFont;
+    font-size: 0.8rem;
+
+  }
+}
+.button__container {
+  display: flex;
+  flex-grow: 4;
+  justify-content: flex-end;
+  width: 1rem;
+  height: 1rem;
+}
+.add__cancel__button {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+}
+  .btn__ {
+    border-radius: 0.5rem;
+    border:0.1rem solid $third-color;
+    height: 2rem;
+    width: 8rem;
+    font-family: $thirdFont;
+  }
+  .summary__table_container {
+    display: flex;
+    justify-content: center;
+    h3 {
+    }
+  }
+  .summary__table {
+    width: 80%;
+    margin: 0 auto;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border:0.3rem solid $third-color;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    p {
+      font-family: $thirdFont;
+
+    }
+  }

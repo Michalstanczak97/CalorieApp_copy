@@ -1,0 +1,13 @@
+@import "fonts";
+.header {
+  width: 100vw;
+  height: 5rem;
+  background-color: $main-banner-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-family: $secondaryFont;
+}
